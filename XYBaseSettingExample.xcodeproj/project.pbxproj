@@ -15,7 +15,7 @@
 		EA2E800D1E4C13FB00FDD0F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E80071E4C13FB00FDD0F4 /* main.m */; };
 		EA2E800E1E4C13FB00FDD0F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E800A1E4C13FB00FDD0F4 /* AppDelegate.m */; };
 		EA2E800F1E4C13FB00FDD0F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E800C1E4C13FB00FDD0F4 /* ViewController.m */; };
-		EA32FB8B1E4C19F200011842 /* XYBaseSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA32FB8A1E4C19F200011842 /* XYBaseSetting.m */; };
+		EA32FB8F1E4C1A7D00011842 /* XYBaseSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = EA32FB8E1E4C1A7D00011842 /* XYBaseSetting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		EA2E800A1E4C13FB00FDD0F4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EA2E800B1E4C13FB00FDD0F4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EA2E800C1E4C13FB00FDD0F4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EA32FB891E4C19F200011842 /* XYBaseSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYBaseSetting.h; path = ../../../../../Documents/XYBaseSetting.h; sourceTree = "<group>"; };
-		EA32FB8A1E4C19F200011842 /* XYBaseSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYBaseSetting.m; path = ../../../../../Documents/XYBaseSetting.m; sourceTree = "<group>"; };
+		EA32FB8D1E4C1A7D00011842 /* XYBaseSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBaseSetting.h; sourceTree = "<group>"; };
+		EA32FB8E1E4C1A7D00011842 /* XYBaseSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBaseSetting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		EA2E7FD01E4C122900FDD0F4 /* XYBaseSettingExample */ = {
 			isa = PBXGroup;
 			children = (
-				EA2E80041E4C12D400FDD0F4 /* XYBaseSetting */,
+				EA32FB8C1E4C1A5300011842 /* XYBaseSetting */,
 				EA2E80051E4C13FB00FDD0F4 /* Classes */,
 				EA2E7FD11E4C122900FDD0F4 /* Supporting Files */,
 			);
@@ -140,15 +140,6 @@
 			path = XYBaseSettingExampleUITests;
 			sourceTree = "<group>";
 		};
-		EA2E80041E4C12D400FDD0F4 /* XYBaseSetting */ = {
-			isa = PBXGroup;
-			children = (
-				EA32FB891E4C19F200011842 /* XYBaseSetting.h */,
-				EA32FB8A1E4C19F200011842 /* XYBaseSetting.m */,
-			);
-			path = XYBaseSetting;
-			sourceTree = "<group>";
-		};
 		EA2E80051E4C13FB00FDD0F4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +166,15 @@
 				EA2E800C1E4C13FB00FDD0F4 /* ViewController.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		EA32FB8C1E4C1A5300011842 /* XYBaseSetting */ = {
+			isa = PBXGroup;
+			children = (
+				EA32FB8D1E4C1A7D00011842 /* XYBaseSetting.h */,
+				EA32FB8E1E4C1A7D00011842 /* XYBaseSetting.m */,
+			);
+			path = XYBaseSetting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,7 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA32FB8B1E4C19F200011842 /* XYBaseSetting.m in Sources */,
+				EA32FB8F1E4C1A7D00011842 /* XYBaseSetting.m in Sources */,
 				EA2E800F1E4C13FB00FDD0F4 /* ViewController.m in Sources */,
 				EA2E800D1E4C13FB00FDD0F4 /* main.m in Sources */,
 				EA2E800E1E4C13FB00FDD0F4 /* AppDelegate.m in Sources */,
