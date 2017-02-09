@@ -96,7 +96,6 @@
 		EA2E7FC51E4C122900FDD0F4 = {
 			isa = PBXGroup;
 			children = (
-				EA32FB971E4C1EAC00011842 /* XYBaseSetting */,
 				EA2E7FD01E4C122900FDD0F4 /* XYBaseSettingExample */,
 				EA2E7FEA1E4C122900FDD0F4 /* XYBaseSettingExampleTests */,
 				EA2E7FF51E4C122900FDD0F4 /* XYBaseSettingExampleUITests */,
@@ -117,6 +116,7 @@
 		EA2E7FD01E4C122900FDD0F4 /* XYBaseSettingExample */ = {
 			isa = PBXGroup;
 			children = (
+				EA32FB971E4C1EAC00011842 /* XYBaseSetting */,
 				EA2E80051E4C13FB00FDD0F4 /* Classes */,
 				EA2E7FD11E4C122900FDD0F4 /* Supporting Files */,
 			);
@@ -189,7 +189,8 @@
 				EA32FB9C1E4C410C00011842 /* Model */,
 				EA32FB9D1E4C410C00011842 /* View */,
 			);
-			path = XYBaseSetting;
+			name = XYBaseSetting;
+			path = ../XYBaseSetting;
 			sourceTree = "<group>";
 		};
 		EA32FB9B1E4C410C00011842 /* Controller */ = {
